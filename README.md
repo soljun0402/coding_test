@@ -1,10 +1,10 @@
 # coding_test
 프로젝트 진행할 때 모바일 버전을 주로 다룰 것 같아서 모바일 기준으로 만들어 봤어. <br/>
 기본 구현은 이정도면 될 것 같은데, JS 사용해서 추가 기능 구현하는 걸로는 '이미지 슬라이드' 생각 중이야.
-아래는 찾아둔 자료들 링크
-+[자바스크립트로 이미지 슬라이드 만들기, https://eunhee-programming.tistory.com/106](https://eunhee-programming.tistory.com/106)<br/>
-+[이미지 슬라이드, https://pilyeooong.tistory.com/entry/01-JavaScript-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-ImageSlide](https://pilyeooong.tistory.com/entry/01-JavaScript-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-ImageSlide)<br/>
-+[자바스크립트 이미지 슬라이드 구현하기, https://penguingoon.tistory.com/255](https://penguingoon.tistory.com/255)
+아래는 찾아둔 자료들 링크 <br/>
++[자바스크립트로 이미지 슬라이드 만들기](https://eunhee-programming.tistory.com/106)<br/>
++[이미지 슬라이드](https://pilyeooong.tistory.com/entry/01-JavaScript-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-ImageSlide)<br/>
++[자바스크립트 이미지 슬라이드 구현하기](https://penguingoon.tistory.com/255)<br/>
 
 코드 전반적으로 쉬워서 보고 이해하는 데 어렵지는 않을 것 같아. 
 **문제 낼 글 작성이랑 추가 기능 하나 정도(js)만 더해주시길 부탁드립니당.**<br/>
