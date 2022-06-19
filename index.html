@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/a37ade872c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--Header-->
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-tree"></i>
+      <span class="title">Sora.J</span>
+    </div>
+    <div class="profile">
+      <i class="fa-solid fa-user"></i>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+ <!--Photos-->
+  <section class="images">
+    <img src="images/0521.jpg">
+  </section>
+
+  <!--Intro-->
+  <section class="selfintro">
+    <img src="images/me.jpg">
+    <div class="profile">
+      <div class="name">SSSora</div>
+      <div class="aboutme">안녕하세요. 전솔아입니다.</div>
+    </div>
+  </section>
+
+
+  <!--Posts-->
+  <section class="writings">
+    <ul>
+      <li class="item">
+        <span class="wtitle">AIcamera</span> <!--제목-->
+        <div class="post">
+          <!--내용-->
+          <span class="preview">HuskeyLens 학습 시킬 때 최대한 다양한 예시를 구성했어야 했다. 
+            body를 color로 우선 인식하고, 그 이후 얼굴을 찾아 id를 판별하도록 했는데,
+            body에 mask가 있는 경우 등 variation에 대한 인식이 부족했다.
+          </span>
+          <button class="more"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </li>
+
+      <li class="item">
+        <span class="wtitle">Mechanism</span>
+        <div class="post">
+          <span class="preview">상하 운동을 구현할 방법으로 gear를 활용한 elevator를 참고하였으나
+            3D 프린터로 출력할 장치의 강도를 알 수 없었으므로 더 안정적인 링크 장치까지 폭넓게 고려해 보았다.
+          </span>
+          <button class="more"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </li>
+
+      <li class="item">
+        <span class="wtitle">Linkage</span>
+        <div class="post">
+          <span class="preview">실제 ACL, PCL 3차 구조를 분석에 용이하도록 2차원으로 설정하였기에 실제 메커니즘과
+            차이가 발생할 수 있으나 나이에 따른 차이를 분석하고, velocity analysis를 통한 움직임 분석과
+            acceleration analysis로 힘 전달을 추론하는 데에 의의를 두었다.
+          </span>
+          <button class="more"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </li>
+    </ul>
+  </section>
+  
+</body>
+</html>
