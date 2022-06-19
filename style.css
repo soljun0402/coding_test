@@ -102,7 +102,7 @@ header .profile .fa-user {
 .writings .item .post {
   display: flex;
   justify-content: space-between;
-  padding-top: 5px;
+  padding: 5px 0 5px 0;
 }
 
 /*추가기능?_길이 제한*/
